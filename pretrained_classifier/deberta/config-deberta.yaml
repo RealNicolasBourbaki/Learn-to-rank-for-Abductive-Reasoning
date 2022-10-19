@@ -1,0 +1,16 @@
+task_name: aNLI
+model: "deberta-large"
+accumulate_grad_batches: 8
+max_epochs: 4
+learning_rate: 2e-6
+adam_epsilon: 10e-8
+warmup_steps: 150
+batch_size: 8
+root_path: "/mount/studenten/arbeitsdaten-studenten1/team-lab-nlp/group7/alphanli"
+max_length: 128
+formula: "obs1 + obs2 -> hyp1|hyp2"
+train_x: "/mount/studenten/arbeitsdaten-studenten1/team-lab-nlp/group7/alphanli/train.jsonl"
+train_y: "/mount/studenten/arbeitsdaten-studenten1/team-lab-nlp/group7/alphanli/train-labels.lst"
+val_x: "/mount/studenten/arbeitsdaten-studenten1/team-lab-nlp/group7/alphanli/dev.jsonl"
+val_y: "/mount/studenten/arbeitsdaten-studenten1/team-lab-nlp/group7/alphanli/dev-labels.lst"
+
