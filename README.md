@@ -3,6 +3,8 @@ Repository for the TeamLab project - Abductive NLI
 
 Author: Esra Dönmez & Nianheng Wu
 
+Our results ranked 3rd on leaderboard.
+
 Full project report: [Here](https://github.com/esradonmez/CL-teamlab/blob/main/Final%20Report_Binary%20Classification%20vs.%20Ranking%20in%20Abductive%20Reasoning.pdf)
 
 ## Project Introduction:
