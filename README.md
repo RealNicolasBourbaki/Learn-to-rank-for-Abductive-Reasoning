@@ -13,7 +13,7 @@ In this repository, you can find our baseline model, which adopts BoW (Bag-of-Wo
 This repository includes:
 * Baseline approach - Multilayer perceptron with input initialized using GloVe embeddings
 * Pretrained classifier - Binary classification model that inherits from pytorch lightning module
-* learn2rank for reasoning approach - We only include the model classes (RoBERTa and DeBERTa) for this approach in the repository. Please refer to [this repository](https://github.com/RealNicolasBourbaki/L2R2) for the full code. (Please note that the code for this approach has been developed by https://github.com/zycdev/L2R2)
+* learn2rank for reasoning approach - We only include the model classes (RoBERTa and DeBERTa) for this approach in the repository. 
 
 You can find more detailed descriptions under the content section.
 
